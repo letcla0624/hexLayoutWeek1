@@ -1,0 +1,135 @@
+body {
+  font-family: "SF Pro Text", sans-serif;
+}
+img{
+  vertical-align: middle;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000;
+}
+.photo img {
+  margin: 48px 0;
+}
+.title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #000;
+}
+.title h2 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-right: 16px;
+}
+.title span {
+  font-size: 24px;
+  line-height: 36px;
+  color: #a00404;
+  font-weight: 700;
+}
+ul {
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+ul li {
+  margin-bottom: 24px;
+}
+li h3,
+li p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+li p {
+  font-weight: 300;
+}
+.education li {
+  margin-bottom: 16px;
+}
+.dark-blue {
+  background-color: #415165;
+  width: 100%;
+  color: #fff;
+  padding-top: 23px;
+  padding-bottom: 40px;
+}
+.dark-blue .title {
+  justify-content: center;
+  border-color: #fff;
+}
+.dark-blue .title span {
+  color: #fff;
+}
+.dark-blue ul {
+  text-align: center;
+}
+.dark-blue li {
+  margin-bottom: 16px;
+}
+.skills ul {
+  width: 200px;
+  border-left: 1px solid #fff;
+  margin: 40px auto 0;
+  padding-left: 24px;
+}
+.skills li:not(:last-child) {
+  margin-bottom: 8px;
+}
+.experience {
+  margin-top: 64px;
+  margin-bottom: 80px;
+}
+.experience ul {
+  width: 642px;
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+.experience li {
+  margin-bottom: 24px;
+}
+.experience p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.experience img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+.footer {
+  padding-bottom: 40px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #c1c1c1;
+}
+.footer ul {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.social-media ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.social-media li:not(:last-child) {
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+li:last-child {
+  margin-bottom: 0px;
+}
