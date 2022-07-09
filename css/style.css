@@ -79,6 +79,7 @@ li p {
   border-left: 1px solid #fff;
   margin: 40px auto 0;
   padding-left: 24px;
+  text-align: left;
 }
 .skills li:not(:last-child) {
   margin-bottom: 8px;
